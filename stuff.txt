@@ -1,0 +1,84 @@
+
+pd.set_option('display.max_columns', None)
+
+df['column name'] = df['column name'].replace(['old value'],'new value')
+
+tables = soup.find_all('table')
+len(tables)
+
+
+
+
+1st 20:
+
+sonic_fox
+punk
+tokido
+hungrybox
+nuckledu
+gachikun
+armada
+idom
+mew2king
+dragon		10
+mena
+daigo
+mango
+mkleo
+knee
+kazunoko
+infiltration
+fuudo
+momochi
+zero
+
+21-40:
+
+sandstorm
+afoxygrandpa
+leffen
+fujimura
+itabashi
+boomie
+dabuz
+nairo
+jwong
+xian		10
+jdcr
+plup
+tweek
+bonchan
+phenom
+ally
+qudans
+problem_x
+nobi
+mago		40!
+
+
+
+
+
+Capstone script:
+
+
+Hello, good afternoon. I'm Patrick and today, I would to show you a dashboard I created to report on the top 40 fighting game players in the world, based on their prize earnings.
+Fighting games have been a passion of mine for most of my life, from when I was a young teenager at the arcade, pumping tokens into the games. I'm excited to show y'all what I could do for this project.
+First, I'll quickly go over some basic info about the subject. Fighting games are a sub genre of video games where one player competes against another player in a traditional fighting tounrament style format. There is usually a timer between 60-90 seconds, best out of 3 rounds wins the match, etc. Some examples of popular fighting games would be the Street Fighter series and Mortal Kombat series.
+So, for this dashboard, I pulled information off the esportsearnings site. I focused on the top 40 players in the fighting game genre based on their earnings.
+In the center of the dashboard, under the Player Select box, there is a dropdown menu that allows you to select any of the top 40 fighting game players and see information such as total prizes, highest paying game, the player's real name, the % of prizes earned offline vs online, and thier earnings by year. I've also included filters on the right for year, or game, if you would like to see specific info for those catagories.
+I have a horizontal bar chart on the bottom left, comparing total prizes by player. 
+I also have a line chart on the right illustrating the amount of online prizes earned, by year. 
+
+Interesting insights - number of games a player placed in doesn't necessarily mean high earnings. JWong, for example. SonicFox, too
+Most prizes were earned offline. Punk and 
+Problem X
+If you want to make real money competing at fighting games, it's best to stick to the major titles. Smaller games don't pay as much. Even though offfline pays more than online, many players have earned more from online in the last couple years. 
+Prizes in general are going up. The effects of Covid are clear in any visualization over time. Some players have tried to adapt and earn more online, while others have not really. 
+That is my presentaion. I'll now take any questions. Thanks.
+
+powerpoint/slide, what is "success"
+online vs offline timeline/money, etc.
+
+"who's the "GOAT" (money earned, number of games placed in, longevity, etc).
+
