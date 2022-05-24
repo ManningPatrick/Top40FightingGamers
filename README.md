@@ -29,10 +29,26 @@ How has the pandemic affected players ability to earn a living?
 
 Web scraping esportsearnings and cleaning and organizing the data was very challenging. I pulled 10 metrics for the years 2003-2021 and created tables and charts to visualize the data and help tell a story. 
 
+```python 3
+sonicfox_url = 'https://www.esportsearnings.com/players/4603-sonicfox-dominique-mclean'
+response = requests.get(sonicfox_url)
+soup = BeautifulSoup(response.content, 'lxml')
+tables = soup.find_all('table')
+len(tables)
+```
+
+
 Gather, clean, organize and analyze data from esportsearnings.com to determine who the greatest fighting-game player of all time is. Explore the data and interesting questions or insights the data may provide. 
 Create visualizations for a presentaion. Technologies used: Python, Google Slides, and PowerBI
 
 
-#Top 40 Fighting Game Players
 
-![Top 40 FG Players](Top 40 FG Players.png)
+
+
+
+# Top 40 Fighting Game Players Dashboard
+
+## ***Justin Wong used as example***
+
+![Top 40 FG Players](https://user-images.githubusercontent.com/90284913/170078383-5c55cfb9-9b28-4c40-8054-a9fa1f9794f6.png)
+
