@@ -11,13 +11,15 @@
 
 An exploration of the top 40 fighting-game players using various metrics. Who is the greatest player of all time and why?
 
-##### Who is the GOAT?
-![Top 40 Fighting-game players](https://user-images.githubusercontent.com/90284913/170115702-2ea13f54-fb61-4a0f-8bf2-1b5f4c640643.png)
-
 
 ### Motivation
 
 Fighting-games have been a passion of mine since I was a young teenager, pumping tokens into the machines at the arcade. As the video game industry continues to grow, how are the Fighting-Game Community (FGC) and it's players keeping up? How should we define the "greatest player of all time" (GOAT)? 
+
+
+##### Who is the GOAT?
+![Top 40 Fighting-game players](https://user-images.githubusercontent.com/90284913/170115702-2ea13f54-fb61-4a0f-8bf2-1b5f4c640643.png)
+
 
 
 ### Data Questions
