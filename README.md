@@ -35,21 +35,28 @@ soup = BeautifulSoup(response.content, 'lxml')
 tables = soup.find_all('table')
 len(tables)
 ```
-```
+```python 3
 sonic_fox = pd.read_html(str(tables), skiprows=1)
 len(sonic_fox)
 ```
-```
+```python 3
 sonic_fox = sonic_fox[0]
 sonic_fox
 ```
 
 ##### added player ID column for table relationships in dashboard:
-```
+```python 3
 sonic_fox['Player ID'] = 'SonicFox'
 sonic_fox
 ```
 
+##### created 2 players tables for data visualizations:
+```python 3
+players_years = pd.concat([sonic_fox, punk, tokido, hungrybox, nuckledu, gachikun, armada, idom, mew2king, dragon, mena, daigo, mango, mkleo, knee, kazunoko, infiltration, fuudo, momochi, zero, sandstorm, afoxygrandpa, leffen, fujimura, itabashi, boomie, dabuz, nairo, jwong, xian, jdcr, plup, tweek, bonchan, phenom, ally, qudans, problem_x, nobi, mago])
+```
+```python 3
+players_games = pd.concat([sonic_fox_games, punk_games, tokido_games, hungrybox_games, nuckledu_games, gachikun_games, armada_games, idom_games, mew2king_games, dragon_games, mena_games, daigo_games, mango_games, mkleo_games, knee_games, kazunoko_games, infiltration_games, fuudo_games, momochi_games, zero_games, sandstorm_games, afoxygrandpa_games, leffen_games, fujimura_games, itabashi_games, boomie_games, dabuz_games, nairo_games, jwong_games, xian_games, jdcr_games, plup_games, tweek_games, bonchan_games, phenom_games, ally_games, qudans_games, problem_x_games, nobi_games, mago_games])
+```
 
 Gather, clean, organize and analyze data from esportsearnings.com to determine who the greatest fighting-game player of all time is. Explore the data and interesting questions or insights the data may provide. 
 Create visualizations for a presentaion. Technologies used: Python, Google Slides, and PowerBI
