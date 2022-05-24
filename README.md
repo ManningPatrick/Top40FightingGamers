@@ -34,4 +34,4 @@ Create visualizations for a presentaion. Technologies used: Python, Google Slide
 
 
 
-![Top 40 Fighting Game Players](/Top40FightingGamers/Top 40 FG Players.png)
+![Top 40 Fighting Game Players](../Top40FightingGamers/Top 40 FG Players.png)
