@@ -29,12 +29,27 @@ How has the pandemic affected players ability to earn a living?
 
 Web scraping esportsearnings and cleaning and organizing the data was very challenging. I pulled 10 metrics for the years 2003-2021 and created tables and charts to visualize the data and help tell a story. 
 
+##### web scrape and create tables for each player:
 ```python 3
 sonicfox_url = 'https://www.esportsearnings.com/players/4603-sonicfox-dominique-mclean'
 response = requests.get(sonicfox_url)
 soup = BeautifulSoup(response.content, 'lxml')
 tables = soup.find_all('table')
 len(tables)
+```
+```
+sonic_fox = pd.read_html(str(tables), skiprows=1)
+len(sonic_fox)
+```
+```
+sonic_fox = sonic_fox[0]
+sonic_fox
+```
+
+##### added player ID column for table relationships in dashboard:
+```
+sonic_fox['Player ID'] = 'SonicFox'
+sonic_fox
 ```
 
 
