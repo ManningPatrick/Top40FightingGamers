@@ -25,7 +25,9 @@ How has the pandemic affected players ability to earn a living?
 
 ### Know Issues and Challenges
 
-Web scraping esportsearnings and cleaning and organizing the data was very challenging. I pulled 10 metrics for the years 2003-2021 and created tables and charts to visualize the data and help tell a story. 
+Gather, clean, organize and analyze data from esportsearnings.com to determine who the greatest fighting-game player of all time is. Explore the data and interesting questions or insights the data may provide. 
+Create visualizations for a presentaion. Technologies used: Python, Google Slides, and PowerBI.
+Web scraping esportsearnings and cleaning and organizing the data was very challenging. I pulled 10 metrics for the years 2003-2021 and created tables and charts to visualize the data and help tell a story.
 
 ##### web scrape and create tables for each player:
 ```python 3
@@ -58,8 +60,12 @@ players_years = pd.concat([sonic_fox, punk, tokido, hungrybox, nuckledu, gachiku
 players_games = pd.concat([sonic_fox_games, punk_games, tokido_games, hungrybox_games, nuckledu_games, gachikun_games, armada_games, idom_games, mew2king_games, dragon_games, mena_games, daigo_games, mango_games, mkleo_games, knee_games, kazunoko_games, infiltration_games, fuudo_games, momochi_games, zero_games, sandstorm_games, afoxygrandpa_games, leffen_games, fujimura_games, itabashi_games, boomie_games, dabuz_games, nairo_games, jwong_games, xian_games, jdcr_games, plup_games, tweek_games, bonchan_games, phenom_games, ally_games, qudans_games, problem_x_games, nobi_games, mago_games])
 ```
 
-Gather, clean, organize and analyze data from esportsearnings.com to determine who the greatest fighting-game player of all time is. Explore the data and interesting questions or insights the data may provide. 
-Create visualizations for a presentaion. Technologies used: Python, Google Slides, and PowerBI
+
+### Data Sources and Tools
+
+Web scraped from [esportsearnings](https://www.esportsearnings.com/players/fighting-game-players)
+
+
 
 
 
