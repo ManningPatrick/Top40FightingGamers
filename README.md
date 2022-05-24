@@ -28,8 +28,7 @@ How has the pandemic affected players ability to earn a living?
 
 ### Know Issues and Challenges
 
-Gather, clean, organize and analyze data from esportsearnings.com to determine who the greatest fighting-game player of all time is. Explore the data and interesting questions or insights the data may provide. 
-Create visualizations for a presentaion. Technologies used: Python, Google Slides, and PowerBI.
+Gather, clean, organize and analyze data from esportsearnings.com to determine who the greatest fighting-game player of all time is. Explore the data and interesting questions or insights the data may provide. Create visualizations for a presentaion.
 Web scraping esportsearnings and cleaning and organizing the data was very challenging. I pulled 10 metrics for the years 2003-2021 and created tables and charts to visualize the data and help tell a story.
 
 ##### web scrape and create tables for each player:
@@ -66,8 +65,9 @@ players_games = pd.concat([sonic_fox_games, punk_games, tokido_games, hungrybox_
 
 ### Data Sources and Tools
 
-Web scraped from [esportsearnings](https://www.esportsearnings.com/players/fighting-game-players)
+Web scraped from [esportsearnings](https://www.esportsearnings.com/players/fighting-game-players).
 
+Technologies used: [Python](https://www.python.org/), [Google Slides](https://www.google.com/slides/about/), and [PowerBI](https://powerbi.microsoft.com/en-us/).
 
 
 
