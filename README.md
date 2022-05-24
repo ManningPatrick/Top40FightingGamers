@@ -1,8 +1,6 @@
-# PatrickCapstone
+# Top 40 Fighting-game Players
 
-## Top 40 Fighting-game Players
-
-## Patrick Manning Capstone Project for DDA5 at Nashville Software School
+## Patrick Manning Capstone Project for Nashville Software School DDA5
 
 ## Contents
  * Motivation
