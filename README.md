@@ -33,4 +33,5 @@ Gather, clean, organize and analyze data from esportsearnings.com to determine w
 Create visualizations for a presentaion. Technologies used: Python, Google Slides, and PowerBI
 
 
-![Top 40 FG Players](Top 40 FG Players.png)
+
+![Top 40 Fighting Game Players](/Top40FightingGames/Top 40 FG Players.png)
