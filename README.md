@@ -78,6 +78,6 @@ Technologies used: [Python](https://www.python.org/), [Google Slides](https://ww
 # Top 40 Fighting Game Players Dashboard
 
 ## ***Justin Wong used as example***
-
+##### Filter by player name and prize earnings by year, game, and  online vs offline.
 ![Top 40 FG Players](https://user-images.githubusercontent.com/90284913/170078383-5c55cfb9-9b28-4c40-8054-a9fa1f9794f6.png)
 
