@@ -9,58 +9,6 @@ len(tables)
 
 
 
-1st 20:
-
-sonic_fox
-punk
-tokido
-hungrybox
-nuckledu
-gachikun
-armada
-idom
-mew2king
-dragon		10
-mena
-daigo
-mango
-mkleo
-knee
-kazunoko
-infiltration
-fuudo
-momochi
-zero
-
-21-40:
-
-sandstorm
-afoxygrandpa
-leffen
-fujimura
-itabashi
-boomie
-dabuz
-nairo
-jwong
-xian		10
-jdcr
-plup
-tweek
-bonchan
-phenom
-ally
-qudans
-problem_x
-nobi
-mago		40!
-
-
-
-
-
-Capstone script:
-
 
 Hello, good afternoon. I'm Patrick and today, I would to show you a dashboard I created to report on the top 40 fighting game players in the world, based on their prize earnings.
 Fighting games have been a passion of mine for most of my life, from when I was a young teenager at the arcade, pumping tokens into the games. I'm excited to show y'all what I could do for this project.
